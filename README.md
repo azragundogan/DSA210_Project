@@ -1,58 +1,61 @@
 # DSA210_Project
-LinkedIn Engagement Analysis – Exploring how hashtags and photos affect post performance.
-
-# DSA210 Project: LinkedIn Engagement Analysis  
+Social Media Screen Time Analysis During Exam Weeks  
 Author: Azra Gündoğan  
 Term: Fall 2025 – Sabancı University  
 
 ## Motivation
-LinkedIn is one of the most widely used professional networking platforms where individuals and companies share content to increase visibility and engagement. However, not all posts perform equally well. Some posts go viral while others remain unnoticed.  
-This project aims to analyze which factors increase engagement (likes and comments) on LinkedIn posts, focusing especially on the number of hashtags used and whether the post includes a photo.  
-Understanding these factors can help professionals and organizations design more effective communication strategies for higher reach and visibility.
+Social media is an essential part of daily life, but its usage often fluctuates depending on personal and academic stress levels.  
+Many students report spending more time on social media during exam periods, either as a form of stress relief or procrastination.  
+This project aims to analyze weekly changes in social media screen time and determine whether screen time significantly increases during exam weeks.
 
 ## Research Question
-What types of LinkedIn posts receive higher engagement, and how do hashtags and photos affect user interaction?
+Does social media screen time increase during exam weeks compared to regular weeks?
 
 ## Hypothesis
-LinkedIn posts that include 2–4 hashtags and contain an image receive significantly higher engagement (likes and comments) than posts without images or with fewer or more hashtags.  
-This hypothesis will be tested statistically using exploratory data analysis (EDA), correlation analysis, and a two-way ANOVA test to evaluate the individual and combined effects of hashtags and image presence.
+Average social media screen time is significantly higher during exam weeks than during non-exam weeks.
+
+This hypothesis will be tested using descriptive statistics, exploratory data analysis (EDA), and hypothesis testing (t-test or Wilcoxon test depending on data distribution).
 
 ## Data Source
-The dataset will be obtained from a public LinkedIn Post Analytics dataset on Kaggle, which includes variables such as:  
-- post_text (text content of the post)  
-- num_hashtags (number of hashtags used)  
-- has_image (binary variable: 1 = image, 0 = no image)  
-- likes, comments (engagement metrics)  
-- post_date (publication date)  
+The dataset for this project will be self-collected from weekly smartphone screen time reports using iPhone Screen Time or Android Digital Wellbeing.  
+Each week’s total screen time for major social media applications (Instagram, TikTok, YouTube, LinkedIn) will be recorded manually in an Excel file.  
+Additionally, each week will be labeled as either an exam week (1) or a non-exam week (0), based on the academic calendar.
 
-Additionally, a small sample of real LinkedIn posts (approximately 20–30) may be manually collected to capture more recent posting trends.
+The final dataset will include columns such as:
+- Week
+- Instagram_hr
+- TikTok_hr
+- YouTube_hr
+- LinkedIn_hr
+- Total_Social_hr
+- Exam_Week (0/1)
+
+Data collection will span approximately 6–8 weeks.
 
 ## Methods and Tools
 Stage | Description  
-------|-------------  
-Data Cleaning | Handle missing values, calculate total engagement (likes + comments).  
-EDA | Visualize the relationships between hashtags, photos, and engagement levels.  
-Statistical Analysis | Perform two-way ANOVA to test the interaction effects.  
-ML (optional) | Use regression models to predict engagement scores.  
-Visualization | Create plots with Matplotlib or Seaborn (e.g., boxplots, bar charts).  
+------|--------------  
+Data Collection | Manually record weekly screen time data and exam week labels.  
+Data Cleaning | Handle missing or inconsistent values.  
+EDA | Calculate averages and visualize screen time trends.  
+Statistical Analysis | Use t-test or Wilcoxon test to determine if exam weeks show higher screen time.  
+Visualization | Use bar plots and line charts to show weekly changes.  
 
-Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn  
+Libraries: pandas, numpy, matplotlib, seaborn, scipy  
 
 ## Project Timeline
 Date | Task  
 ------|------  
 Oct 31 | Submit project proposal (this README.md) on GitHub  
 Nov 28 | Collect and clean data, perform exploratory data analysis  
-Jan 2 | Apply statistical and machine learning methods  
+Jan 2 | Conduct hypothesis testing and visualization  
 Jan 9 (23:59) | Submit final report and presentation  
 
 ## Expected Findings
-- Posts that include images tend to receive higher average engagement.  
-- Engagement increases up to a moderate hashtag count (2–4) and then decreases.  
-- The combination of an image and an optimal number of hashtags produces the best results.  
-- Excessive hashtags or lack of visuals may reduce engagement.  
+- Screen time is expected to increase during exam weeks.  
+- Entertainment platforms (e.g., TikTok, Instagram) may show greater increases compared to professional ones (e.g., LinkedIn).  
+- The findings can provide insights into behavioral patterns and stress-related social media use among students.
 
 ## Academic Integrity
-All data used in this project will be publicly available and properly cited.  
-Any use of AI tools (including ChatGPT) for text or code generation will be documented clearly in the final report, in accordance with the academic integrity policy of DSA210.
-
+All data will be collected personally and used solely for educational purposes.  
+Any use of AI tools (including ChatGPT) for analysis or text generation will be clearly documented in the final report, in accordance with the academic integrity policy of DSA210.
