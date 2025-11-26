@@ -26,16 +26,7 @@ Each week’s total screen time for major social media applications (Instagram, 
 Additionally, each week will be labeled as either an exam week (1) or a non-exam week (0), based on the academic calendar.
 
 The final dataset will include columns such as:
--Participant_ID
--Day
--WhatsApp_min
--Instagram_min
--TikTok_min
--YouTube_min
--Total_Screen_min
--Entertainment_min
--Communication_min
--Exam_day_or_not
+-Participant_ID, Day, WhatsApp_min, Instagram_min, TikTok_min, YouTube_min, Total_Screen_min, Entertainment_min, Communication_min, Exam_day_or_not
 
 Data collection will span approximately 2–4 weeks.
 
