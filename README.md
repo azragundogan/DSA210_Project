@@ -12,8 +12,7 @@ This project aims to analyze weekly changes in social media screen time and dete
 Does social media screen time increase during exam weeks compared to regular weeks?
 
 ## Hypothesis
-Average social media screen time is significantly higher during exam weeks than during non-exam weeks.
-
+On exam days, the increase in entertainment-based screen time (Instagram, TikTok, YouTube) is larger than the increase in communication-based screen time (WhatsApp).
 This hypothesis will be tested using descriptive statistics, exploratory data analysis (EDA), and hypothesis testing (t-test or Wilcoxon test depending on data distribution).
 
 ## Data Source
@@ -22,15 +21,18 @@ Each week’s total screen time for major social media applications (Instagram, 
 Additionally, each week will be labeled as either an exam week (1) or a non-exam week (0), based on the academic calendar.
 
 The final dataset will include columns such as:
-- Week
-- Instagram_hr
-- TikTok_hr
-- YouTube_hr
-- LinkedIn_hr
-- Total_Social_hr
-- Exam_Week (0/1)
+- Participant_ID
+-Day
+-WhatsApp_min
+-Instagram_min
+-TikTok_min
+-YouTube_min
+-Total_Screen_min
+-Entertainment_min
+-Communication_min
+-Exam_day_or_not
 
-Data collection will span approximately 6–8 weeks.
+Data collection will span approximately 2–4 weeks.
 
 ## Methods and Tools
 Stage | Description  
