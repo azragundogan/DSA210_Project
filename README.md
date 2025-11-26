@@ -9,31 +9,16 @@ Many students report spending more time on social media during exam periods, eit
 This project aims to analyze weekly changes in social media screen time and determine whether screen time significantly increases during exam weeks.
 
 ## Research Question
-Does social media screen time increase during exam weeks compared to regular weeks?
+Is entertainment-based screen time significantly greater than communication-based screen time on exam days?
 
 ## Hypothesis
+  The main goal of this project is to determine if students’ phone usage patterns change on exam days.
+Rather than looking only at how much time they spend on their phones, the project focuses on how they spend that time — whether they tend to use more entertainment apps (Instagram, TikTok, YouTube) or communication apps (WhatsApp) when they are under exam-related stress.
 
-This project examines whether students shift their screen time behavior on exam days.  
-Specifically, I compare two types of screen time recorded on the same day for the same participant:
+H₀: On exam days, entertainment-based screen time is <= communication-based screen time.
 
-- **Entertainment-based screen time:** Instagram, TikTok, YouTube  
-- **Communication-based screen time:** WhatsApp  
+H₁:On exam days, entertainment-based screen time is > communication-based screen time.
 
-### Null Hypothesis (H₀)
-
-On exam days, entertainment-based screen time is **less than or equal to** communication-based screen time.
-
-\[
-H_0: \text{Entertainment}_{exam} \le \text{Communication}_{exam}
-\]
-
-### Alternative Hypothesis (H₁)
-
-On exam days, entertainment-based screen time is **greater than** communication-based screen time.
-
-\[
-H_1: \text{Entertainment}_{exam} > \text{Communication}_{exam}
-\]
 
 ## Data Source
 The dataset for this project will be self-collected from weekly smartphone screen time reports using iPhone Screen Time or Android Digital Wellbeing.  
