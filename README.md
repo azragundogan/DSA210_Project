@@ -23,7 +23,7 @@ H₁:On exam days, entertainment-based screen time is > communication-based scre
 ## Data Source
 The dataset for this project will be self-collected from weekly smartphone screen time reports using iPhone Screen Time or Android Digital Wellbeing.  
 Each week’s total screen time for major social media applications (Instagram, TikTok, YouTube, LinkedIn) will be recorded manually in an Excel file.  
-Additionally, each week will be labeled as either an exam week (1) or a non-exam week (0), based on the academic calendar.
+Additionally, each week will be labeled as either an exam day (1) or a non-exam day (0), based on the academic calendar.
 
 The final dataset will include columns such as:
 -Participant_ID, Day, WhatsApp_min, Instagram_min, TikTok_min, YouTube_min, Total_Screen_min, Entertainment_min, Communication_min, Exam_day_or_not
