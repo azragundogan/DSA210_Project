@@ -13,6 +13,7 @@ Does social media screen time increase during exam weeks compared to regular wee
 
 ## Hypothesis
 On exam days, the increase in entertainment-based screen time (Instagram, TikTok, YouTube) is larger than the increase in communication-based screen time (WhatsApp).
+
 This hypothesis will be tested using descriptive statistics, exploratory data analysis (EDA), and hypothesis testing (t-test or Wilcoxon test depending on data distribution).
 
 ## Data Source
