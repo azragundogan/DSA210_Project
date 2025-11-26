@@ -59,6 +59,17 @@ Jan 9 (23:59) | Submit final report and presentation
 - Entertainment platforms (e.g., TikTok, Instagram) may show greater increases compared to professional ones (e.g., LinkedIn).  
 - The findings can provide insights into behavioral patterns and stress-related social media use among students.
 
+## Preliminary Results
+
+Using daily screen time data from 7 participants over 7 days, 
+I compared entertainment-based apps (Instagram, TikTok, YouTube) and WhatsApp usage 
+between exam and non-exam days. 
+
+Preliminary results show that average entertainment minutes are higher on exam days 
+than on non-exam days, while the increase in WhatsApp usage is smaller. 
+A two-sample t-test was applied to test this difference.
+
+
 ## Academic Integrity
 All data will be collected personally and used solely for educational purposes.  
 Any use of AI tools (including ChatGPT) for analysis or text generation will be clearly documented in the final report, in accordance with the academic integrity policy of DSA210.
