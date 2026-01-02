@@ -92,6 +92,13 @@ The model achieved an accuracy of approximately 39%, indicating that screen time
 
 Feature coefficients from the logistic regression model indicate that entertainment-based screen time has a positive association with exam days, while communication-based and total screen time show negative associations. However, these effects are relatively small, highlighting the complexity of behavioral patterns during exam periods.
 
+## Final Notes
+
+All statistical analyses, hypothesis testing, visualizations, and machine learning results are provided in the Jupyter notebook (`analysis.ipynb`).  
+The README serves as a high-level overview of the project, while the notebook contains the full analytical workflow and outputs.
+
+This project demonstrates an end-to-end data analysis process, from data collection and exploratory analysis to hypothesis testing, visualization, and basic machine learning modeling.
+
 
 ## Academic Integrity
 All data will be collected personally and used solely for educational purposes.  
