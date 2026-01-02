@@ -8,6 +8,14 @@ Social media is an essential part of daily life, but its usage often fluctuates 
 Many students report spending more time on social media during exam periods, either as a form of stress relief or procrastination.  
 This project aims to analyze weekly changes in social media screen time and determine whether screen time significantly increases during exam weeks.
 
+## Data Description
+
+The dataset used in this project was collected from third-year Industrial Engineering students.  
+The data covers a two-week period during which students were actively taking midterm exams.
+
+All screen time data was self-recorded by the participants screen time app. It includes daily usage durations of communication-based and entertainment-based mobile applications.
+
+
 ## Research Question
 Is entertainment-based screen time significantly greater than communication-based screen time on exam days?
 
@@ -69,8 +77,23 @@ at the 5% level (p = 0.32 for entertainment, p = 0.15 for WhatsApp),
 but the direction of the effects is consistent with the hypothesis that 
 students shift more of their screen time toward entertainment apps on exam days.
 
+## Machine Learning Analysis (2 January)
+
+In this project, a supervised machine learning approach was applied to examine whether daily screen time patterns can predict whether a day is an exam day.
+
+A Logistic Regression model was used, where the target variable was `Exam_day_or_not` (1 = exam day, 0 = non-exam day). The input features included:
+- Entertainment_min  
+- Communication_min  
+- Total_Screen_min  
+
+The dataset was split into training and testing sets, and the model was evaluated using accuracy, a confusion matrix, and a classification report.
+
+The model achieved an accuracy of approximately 39%, indicating that screen time variables alone have limited predictive power in determining exam days. This suggests that while differences in usage patterns exist, they are not strong enough on their own to reliably classify exam versus non-exam days.
+
+Feature coefficients from the logistic regression model indicate that entertainment-based screen time has a positive association with exam days, while communication-based and total screen time show negative associations. However, these effects are relatively small, highlighting the complexity of behavioral patterns during exam periods.
 
 
 ## Academic Integrity
 All data will be collected personally and used solely for educational purposes.  
 Any use of AI tools (including ChatGPT) for analysis or text generation will be clearly documented in the final report, in accordance with the academic integrity policy of DSA210.
+
